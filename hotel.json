@@ -1,0 +1,19 @@
+{
+  "users": [
+    { "name": "Admin", "email": "admin@example.com", "password": "adminpass", "role": "admin" },
+    { "name": "Customer", "email": "customer@example.com", "password": "custpass", "role": "customer" }
+  ],
+  "rooms": [
+    { "number": "101", "type": "Standard", "price": 100, "available": true },
+    { "number": "102", "type": "Deluxe", "price": 150, "available": true }
+  ],
+  "bookings": [
+    {
+      "customerId": "customer_id_placeholder",
+      "roomId": "room_id_placeholder",
+      "checkInDate": "2025-10-01",
+      "checkOutDate": "2025-10-05",
+      "status": "pending"
+    }
+  ]
+}
